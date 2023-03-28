@@ -1,0 +1,21 @@
+footer {
+    background-color: #1D1C1C;
+
+}
+
+.g-col-4 {
+    border: white solid 1px;
+    color: white;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.copyright {
+    padding: 1rem;
+    color: white;
+}
+
+.g-col-4 li {
+    list-style-type: none;
+   
+}
