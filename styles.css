@@ -4,11 +4,11 @@ footer {
     font-weight: 600;
 }
 
-.g-col-4 {
-    border: white solid 1px;
+.Footer__listitems {
     color: white;
-    margin: 2rem;
-    padding: 1rem;
+    margin: 1rem;
+    padding: .5rem;
+    line-height: 17px;
 }
 
 .Footer__copyright {
@@ -17,15 +17,11 @@ footer {
 
 }
 
-.g-col-4 li {
+.Footer__listitems li {
     list-style-type: none;
-    margin: 1rem;
-   
-}
+  }
 
-i {
-    margin: .5rem;
-}
+
 
 .Footer__leftcolumn {
     font-size: 22px;
@@ -37,3 +33,10 @@ i {
     font: 14px; 
 }
 
+
+.Footer__socialIcons {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 6px;
+}
