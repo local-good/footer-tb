@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!-- Iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </head>
 
 <body>
@@ -28,42 +31,55 @@
 
     <footer>
         <div class="grid text-left d-flex flex-row justify-content-md-evenly">
-            <div class="g-col-4 Footer__listitems">
+            <div class="g-col-4 Footer__listitems Footer__col1">
                 <ul class="Footer__leftcolumn">
-                    <li>Shop Mediums</li>
-                    <li>Find Artspaces</li>
-                    <li>Discover Artists</li>
-                    <li>Read Our Blog</li>
-                    <li>Artist Application</li>
-                    <li>Artspace Application</li>
-                    <li>About Us</li>
+                    <li class="Footer__col1--singleitem">Shop Mediums</li>
+                    <li class="Footer__col1--singleitem">Find Artspaces</li>
+                    <li class="Footer__col1--singleitem">Discover Artists</li>
+                    <li class="Footer__col1--singleitem">Read Our Blog</li>
+                    <li class="Footer__col1--singleitem">Artist Application</li>
+                    <li class="Footer__col1--singleitem">Artspace Application</li>
+                    <li class="Footer__col1--singleitem">About Us</li>
                 </ul>
             </div>
-            <div class="g-col-4 Footer__listitems">
-                <ul class="Footer__midcolumn">
-                    <li><i class="fa-solid fa-circle-question"></i> Help Center</li>
-                    <li><i class="fa-sharp fa-regular fa-envelope-circle-check"></i> Contact</li>
+            <div class="g-col-4 Footer__listitems Footer__col2">
+                <ul class="Footer__col2--list">
+                    <div class="Footer__col2--singleitem">
+                        <span class="iconify" data-icon="material-symbols:contact-support-rounded"></span>
+                     <p class="Footer__col2--text"> Help Center </p>
+                    </div>
+                    <div class="Footer__col2--singleitem">
+                        <span class="iconify" data-icon="material-symbols:mark-email-read-outline-sharp"></span>
+                     <p class="Footer__col2--text"> Contact </p>
+                    </div>
                 </ul>
             </div>
-            <div class="g-col-4">
-                <div class="Footer__socialIcons Footer__listitems">
-                    <i class="fa-brands fa-square-facebook fa-xl" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-pinterest fa-xl" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-tiktok fa-xl" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-youtube fa-xl" style="color: #ffffff;"></i>
+            <div class="g-col-4 Footer__listitems Footer__col3">
+                <div class="Footer__col3--socialicons">
+                    <span class="iconify" data-icon="carbon:logo-facebook"></span>
+                    <span class="iconify" data-icon=mingcute:pinterest-fill></span>
+                    <span class="iconify" data-icon=ph:instagram-logo-bold></span>
+                    <span class="iconify" data-icon=carbon:logo-linkedin></span>
+                    <span class="iconify" data-icon=simple-icons:tiktok></span>
+                    <span class="iconify" data-icon=mdi:youtube></span>
                 </div>
-                <ul class="Footer__rightcolumn Footer__listitems">
-                    <li>Terms of Use</li>
-                    <li>Privacy Policy</li>
-                    <li>Site Map</li>
-                    <li>Sign Up for Our Newsletter</li>
-                </ul>
+
+                    <ul class="Footer__col3--list">
+                        <li class="Footer__col3--singleitem">Terms of Use</li>
+                        <li class="Footer__col3--singleitem">Privacy Policy</li> 
+                        <li class="Footer__col3--singleitem">Site Map</li>
+                        <li class="Footer__col3--singleitem">Sign Up for Our Newsletter</li>
+         
+              
             </div>
         </div>
         <p class="Footer__copyright">Proudly made in the USA &#169 LocalGood</p>
+
+
     </footer>
+
+
+
 
     <!-- Bootstrap Link -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
