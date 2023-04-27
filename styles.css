@@ -54,25 +54,3 @@ footer {
 .Footer__singleitem--top {
     margin-top: 0px;
 }
-
-/* using flex to go from 3 to 1 column with flex */
-/* @media (min-width:500px) {
-    .parentcolumns {
-        display: flex;
-    }
-    .childcolumn {
-     flex: 1;
-    }
-} */
-
-/* using grid to go from 3 to 1 column for mobile */
-/* @media (min-width: 500px) {
-    .parentcolumns {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .childcolumn {
-        grid-template-columns: 1fr;
-    }
-} */
-
